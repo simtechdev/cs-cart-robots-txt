@@ -1,0 +1,18 @@
+User-agent: *
+Disallow: /app/
+Disallow: /store_closed.html
+Disallow: /*items_per_page*
+Disallow: /search*
+Disallow: /*dispatch=products.search*
+Disallow: /*dispatch=profiles.update*
+Disallow: /*dispatch=auth.recover_password*
+Disallow: /*dispatch=orders.search*
+Disallow: /*dispatch=auth*
+Disallow: /*dispatch=profiles*
+Disallow: /*dispatch=checkout*
+Disallow: /*dispatch=debugger*
+Disallow: /*sort_by=*
+
+Sitemap: https://www.EXAMPLE.com/sitemap.xml
+Host: https://www.EXAMPLE.com
+Crawl-delay: 5
